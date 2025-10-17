@@ -1,0 +1,12 @@
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:5432/user
+    username: usr01
+    password: $12$$aa"
+    driver-class-name: org.mysql.Driver
+
+app:
+  config:
+    path: /opt/config
